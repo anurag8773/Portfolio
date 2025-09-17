@@ -38,6 +38,8 @@ import nginx from "./assets/tech_logo/nginx.png";
 import django from "./assets/tech_logo/django.png";
 import flask from "./assets/tech_logo/flask.png";
 import go from "./assets/tech_logo/go.png";
+import n8n from "./assets/tech_logo/n8n.png";
+import redis from "./assets/tech_logo/redis.png";
 
 // Experience Section Logo's
 import medius_logo from "./assets/company_logo/medius_logo.jpg";
@@ -83,6 +85,7 @@ export const SkillsInfo = [
       { name: "MySQL", logo: mysqlLogo },
       { name: "MongoDB", logo: mongodbLogo },
       { name: "PostgreSQL", logo: postgreLogo },
+      { name: "Redis", logo: redis },
     ],
   },
   {
@@ -109,6 +112,7 @@ export const SkillsInfo = [
       { name: "Docker", logo: docker },
       { name: "AWS", logo: aws },
       { name: "Nginx", logo: nginx },
+      { name: "n8n", logo: n8n },
     ],
   },
 ];
