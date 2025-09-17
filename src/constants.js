@@ -27,11 +27,9 @@ import githubLogo from "./assets/tech_logo/github.png";
 import vscodeLogo from "./assets/tech_logo/vscode.png";
 import postmanLogo from "./assets/tech_logo/postman.png";
 import mcLogo from "./assets/tech_logo/mc.png";
-import figmaLogo from "./assets/tech_logo/figma.png";
 import netlifyLogo from "./assets/tech_logo/netlify.png";
 import vercelLogo from "./assets/tech_logo/vercel.png";
 import postgreLogo from "./assets/tech_logo/postgre.png";
-import csharpLogo from "./assets/tech_logo/csharp.png";
 import docker from "./assets/tech_logo/docker.png";
 import aws from "./assets/tech_logo/aws.jpg";
 import nginx from "./assets/tech_logo/nginx.png";
@@ -51,15 +49,15 @@ import akgec_Logo from "./assets/education_logo/akgec_logo.png";
 import vvps_Logo from "./assets/education_logo/vvps_logo.jpeg";
 
 // Project Section Logo's
-import githubdetLogo from "./assets/work_logo/github_det.png";
-import csprepLogo from "./assets/work_logo/cs_prep.png";
-import movierecLogo from "./assets/work_logo/movie_rec.png";
-import taskremLogo from "./assets/work_logo/task_rem.png";
-import npmLogo from "./assets/work_logo/npm.png";
-import webverLogo from "./assets/work_logo/web_dig.png";
-import cmLogo from "./assets/work_logo/cm.png";
-import imagesearchLogo from "./assets/work_logo/image_search.png";
-import removebgLogo from "./assets/work_logo/remove_bg.png";
+import socialhub from "./assets/work_logo/socialhub.png";
+import userauthentication from "./assets/work_logo/user-authentication.jpg";
+import apigateway from "./assets/work_logo/apigateway.jpg";
+import healthcare from "./assets/work_logo/healthcare.webp";
+import internaltransfer from "./assets/work_logo/internaltransfer.jpg";
+import twitterapi from "./assets/work_logo/twitterapi.avif";
+import datavisualization from "./assets/work_logo/datavisualization.webp";
+import chatapp from "./assets/work_logo/chatapp.avif";
+import ecommerce from "./assets/work_logo/ecommerce.jpg";
 
 export const SkillsInfo = [
   {
@@ -190,7 +188,7 @@ export const projects = [
     title: "Social Hub",
     description:
       "SocialHub is a full-stack social media application built using React for the frontend and Django + MySQL for the backend. The platform allows users to interact through posts and offers a responsive UI backed by robust APIs. It features JWT-based authentication, ensuring secure user sessions and data protection.",
-    image: githubdetLogo,
+    image: socialhub,
     tags: ["HTML", "CSS", "JavaScript", "React JS", "Python", "Django", "MySQL"],
     github:
       "https://github.com/anurag8773/SocialHub",
@@ -201,7 +199,7 @@ export const projects = [
     title: "User Authentication System",
     description:
       "This repository contains a robust user authentication system built using Django. It includes features such as login, signup, password reset, email verification, and profile management, ensuring a secure and user-friendly experience.",
-    image: csprepLogo,
+    image: userauthentication,
     tags: [,
       "HTML",
       "CSS",
@@ -218,7 +216,7 @@ export const projects = [
     title: "API GateWay",
     description:
       "This repository contains a microservices-based project that leverages Django for backend development and Flask for additional API handling. It demonstrates a seamless integration of two frameworks with RabbitMQ as a message broker and MySQL as the database. The project showcases efficient inter-service communication and data management.",
-    image: movierecLogo,
+    image: apigateway,
     tags: ["Python", "Django", "Flask", "RabbitMQ", "JavaScript", "Docker"],
     github: "https://github.com/anurag8773/API-GateWay",
     //webapp: "https://movie-recommendation-app-jet.vercel.app/",
@@ -228,7 +226,7 @@ export const projects = [
     title: "Healthcare Backend System",
     description:
       "A Healthcare Backend System built with Django, Django REST Framework, PostgreSQL, and JWT Authentication.It provides a secure RESTful API to manage patients, doctors, and their mappings with authentication and authorization for protected resources.",
-    image: npmLogo,
+    image: healthcare,
     tags: ["Python", "Django", "PostgreSQL", "REST API", "JWT"],
     github: "https://github.com/anurag8773/Healthcare-Backend",
     //webapp: "https://www.npmjs.com/package/cmtk-email-validator",
@@ -238,7 +236,7 @@ export const projects = [
     title: "Internal Money Transfers App",
     description:
       "A Golang Application to handle internal financial transactions between accounts, with data persistence using PostgreSQL. It features RESTful API endpoints for creating accounts, transferring funds, and retrieving account details, ensuring secure and efficient money management.",
-    image: taskremLogo,
+    image: internaltransfer,
     tags: ["Golang", "PostgreSQL", "Docker", "gorilla/mux"],
     github: "https://github.com/anurag8773/Internal-Transfers-App",
     //webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
@@ -248,7 +246,7 @@ export const projects = [
     title: "Twitter/X Trending Topics Fetcher",
     description:
       "This project fetches the latest trending topics from a specified platform (e.g., Twitter/X) using Selenium, stores the results in a MongoDB database, and allows a frontend (HTML) to interact with the backend (Flask) to display the results.",
-    image: webverLogo,
+    image: twitterapi,
     tags: ["Python", "Flask", "Selenium", "MongoDB", "HTML", "CSS", "JavaScript"],
     github: "https://github.com/anurag8773/Trending-Topics-Fetcher",
     //webapp: "https://webversedigital.com/",
@@ -258,7 +256,7 @@ export const projects = [
     title: "Data Visualization Application",
     description:
       "A MERN stack application for graphical representation of JSON data using Chart.js. Users can upload JSON files, which are parsed and visualized through various chart types. The app features a responsive design, user authentication, and data persistence with MongoDB.",
-    image: cmLogo,
+    image: datavisualization,
     tags: ["React JS", "Redux", "Node.js", "MongoDB", "Express", "Chart.js", "CSS", "JavaScript"],
     github: "https://github.com/anurag8773/Data_Visualization_MERN-",
     //webapp: "https://codingmasterweb.in/",
@@ -268,7 +266,7 @@ export const projects = [
     title: "Chat App",
     description:
       "A real-time chat application built with React.js for the frontend and Django Channels for the backend. It enables users to join chat rooms and exchange messages instantly, leveraging WebSockets for seamless communication.",
-    image: imagesearchLogo,
+    image: chatapp,
     tags: ["React JS", "API", "Python", "CSS", "Javascript", "Django", "WebSocket"],
     github: "https://github.com/anurag8773/Chat_App_WebSocket_Dj",
     //webapp: "https://imagsearch.netlify.app/",
@@ -278,7 +276,7 @@ export const projects = [
     title: "E-Commerce application",
     description:
       "This Django-based E-Commerce project provides a comprehensive platform for creating an online store with essential functionalities like user signup, cart management, various payment options, and email verification through automatically generated tokens for enhanced security.",
-    image: removebgLogo,
+    image: ecommerce,
     tags: ["Python", "Django", "JavaScript", "HTML", "CSS", "Bootstrap"],
     github: "https://github.com/anurag8773/Django_E-Commerce-Project",
     //webapp: "https://removeyourbg.netlify.app/",
